@@ -21,6 +21,8 @@ wrds <- dbConnect(
   password = password
 )
 
+set_wrds_credentials()
+
 wrds <- get_wrds_connection()
 
 # PARAMETERS
